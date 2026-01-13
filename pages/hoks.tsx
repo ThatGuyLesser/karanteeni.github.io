@@ -8,13 +8,13 @@ const Hoks = () => {
         <Layout
             title="Hyvä tietää"
             description="Karanteeni on vuodesta 2016 asti toiminut suomalainen Minecraft palvelin. Karanteenin alkuperäiset perustajat ovat Emmazki, Jomeee ja
-            Nuubles, joista Jomeee ja Nuubles ovat vielä aktiivisina pyörimässä. Palvelimella keskeisin pelimuoto on omilla ominaisuuksilla paranneltu Survival.
+            Nuubles, serverillä on nykyään kolme omistajaa joista kaksi ovat alkuperäisiä perustajia. Jomeee, Nuubles ja Jokune. Palvelimella keskeisin pelimuoto on omilla ominaisuuksilla paranneltu Survival.
             Palvelimelle on palaamassa Creative ja erinäköiset minipelit."
         >
             <Heading heading="Hyvä tietää!" lead="Karanteeni tiivistettynä" />
             <p>
-                Karanteeni on vuodesta 2016 asti toiminut suomalainen Minecraft-palvelin. Karanteenin alkuperäiset
-                perustajat ovat Emmazki, Jomeee ja Nuubles, joista Jomeee ja Nuubles ovat vielä aktiivisina pyörimässä.
+                Karanteeni on vuodesta 2016 asti toiminut suomalainen Minecraft palvelin. Karanteenin alkuperäiset perustajat ovat Emmazki, Jomeee ja
+                Nuubles. Serverillä on nykyään kolme omistajaa joista kaksi ovat alkuperäisiä perustajia, Jomeee, Nuubles ja Jokune.
                 Palvelimella keskeisin pelimuoto on omilla ominaisuuksilla paranneltu Survival, mutta monelle tuttu
                 Creative on myös pelattavissa. Tulevaisuudessa myös erilaiset minipelit tekevät paluun serverille.
             </p>
@@ -37,14 +37,14 @@ const Hoks = () => {
             <h3>Muita pointteja</h3>
             <ul>
                 <li>
-                    Karanteenissa valuuttana toimii pennit (❂). Pennejä voi ansaita äänestämällä Karanteenia{' '}
+                    Karanteenissa valuuttana toimii pennit (❂). Pennejä voi ansaita äänestyslaatikoista, joita saa äänestämällä Karanteenia{' '}
                     <code>/vote</code> ja käymällä kauppaa toisten pelaajien kanssa.
                 </li>
                 <li>
                     Karanteenissa ylläpito suojaa alueesi. Pyydäthän ylläpitoa suojausta, niin vältytään turhilta grief-tapauksilta.
                 </li>
                 <li>
-                    Kaikki viestit ja komennot joita laitetaan palvelimella, ovat ylläpidon nähtävissä turvallisuussyistä.
+                    Kaikki viestit ja komennot joita lähetetään palvelimella, ovat ylläpidon nähtävissä turvallisuussyistä.
                 </li>
             </ul>
         </Layout>
@@ -52,3 +52,4 @@ const Hoks = () => {
 }
 
 export default Hoks
+
